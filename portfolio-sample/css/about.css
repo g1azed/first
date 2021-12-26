@@ -1,0 +1,39 @@
+article:first-child > h2{  
+  font-size: 54px;
+  text-align: center;
+  margin: 0 0 50px;
+}
+.about{
+  display: flex;
+  justify-content: center;
+}
+.about > li{
+  display: inline-block;
+  margin: 0 50px;
+}
+.about__photo > img{
+  width: 250px; height: 250px;
+  border-radius: 50%;
+  animation: imageshadow 1500ms ease 0s infinite alternate-reverse;
+}
+.category{
+  font-size: 24px;
+  width: 100px;
+  border-bottom: 5px solid red;
+  animation: moveline 1s ease 0s infinite alternate-reverse;
+}
+.category ~ p{
+  margin: 20px 0;
+  line-height: 24px;
+}
+
+/* 자기소개 항목 밑줄 왔다갔다 하는 애니메이션 */
+@keyframes moveline{
+  from{width: 100px;}
+  to{width:200px;}
+}
+/* 자기소개 항목 밑줄 왔다갔다 하는 애니메이션 */
+@keyframes imageshadow{
+  from{box-shadow: 0px 0px 30px red;}
+  to{box-shadow: 0px 0px 5px red;}
+}

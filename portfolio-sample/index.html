@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="./css/main.css" rel="stylesheet" type="text/css">
+  <title>포트폴리오 페이지 샘플</title>
+</head>
+<body>
+  <div id="container">
+    <!-- 그냥 대문... fixed 배경 이미지 -->
+    <div class="main">
+      <h1 class="main__headline">
+        HELLO, I'M JASON
+      </h1>
+    </div>
+    <div class="content">
+      <header>
+        <nav>
+        <ul class="nav-bar">
+          <li class="nav-item"><a href="#about">ABOUT</a></li>
+          <li class="nav-item"><a href="#skills">SKILLS</a></li>
+          <li class="nav-item"><a href="#port">PORTFOLIO</a></li>
+          <li class="nav-item"><a href="#contact">CONTACT</a></li>
+        </ul>
+        </nav>
+      </header>
+      <section>
+        <article id="about">
+          <h2>ABOUT JASON</h2>
+          <ul class="about">
+            <li class="about__photo">
+              <img src="./asset/images/jason-mask.png" alt="프로필 사진">
+            </li>
+            <li class="about__introduction">
+              <h3 class="category">PROFILE</h3>
+              <p>
+                # 제이슨 JASON<br>
+                크리스탈 호수 CRYSTAL LAKE<br>
+                캘리포니아 전문대학 전산과 CAL JUNIOR COLLEGE COMPUTER SCIENCE<br>
+                코리아 IT 아카데미 프론트엔드 수료 KOREA IT ACADEMY FRONTEND<br><br>
+                # 장점 STRENGTH<br>
+                자신있는 부분.<br><br>
+                # 단점 WEAKNESS<br>
+                약간 부족한 부분.<br><br>
+                <br>
+              </p>
+              <h3 class="category">CAREER</h3>
+              <p>
+                # FIRST JOB<br>
+                작성할 내용이 있는 경우 작성한다.<br>
+                없다면 이 부분은 생략.<br><br>
+                # SECOND JOB<br>
+                작성할 내용이 있는 경우 작성한다.<br>
+                없다면 이 부분은 생략.<br><br>
+                <br>
+              </p>
+            </li>
+          </ul>
+        </article>
+        <article id="skills">
+          <h2>SKILLS</h2>
+            <div class="skills">
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite">HTML</h2>
+                <p>스킬을 사용해 할 수 있는 것들 대강 묘사</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite">CSS</h2>
+                <p>스킬을 사용해 할 수 있는 것들 대강 묘사</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite">Javascript</h2>
+                <p>스킬을 사용해 할 수 있는 것들 대강 묘사</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite">Jquery</h2>
+                <p>스킬을 사용해 할 수 있는 것들 대강 묘사</p>
+              </div>
+              <div class="skill">
+                <h2 class="wow pulse" data-wow-iteration="infinite">React</h2>
+                <p>스킬을 사용해 할 수 있는 것들 대강 묘사</p>
+              </div>
+            </div>
+        </article>
+        <article id="port">
+          <h2>PORTFOLIO</h2>
+          <button class="prev" onclick="prev()">
+            <i class="fa-5x fas fa-angle-left"></i>
+          </button>
+          <div class="single-items">
+            <div class="item active">one</div>
+            <div class="item">two</div>
+            <div class="item">three</div>
+            <div class="item">four</div>
+          </div>
+          <ul class="stepper">
+            <li class="step active-step"><i class="fas fa-circle"></i></li>
+            <li class="step"><i class="fas fa-circle"></i></li>
+            <li class="step"><i class="fas fa-circle"></i></li>
+            <li class="step"><i class="fas fa-circle"></i></li>
+          </ul>
+          <button class="next" onclick="next()">
+            <i class="fa-5x fas fa-angle-right"></i>
+          </button>
+        </article>
+      </section>
+    </div>
+    <footer id="contact">
+      <h2>CONTACT</h2>
+      <div class="contacts">
+        <div class="contacts__email">
+          <h3>MAIL</h3>
+          <p>jason@naver.com</p>
+        </div>
+        <div class="contacts__phone">
+          <h3>PHONE</h3>
+          <p>010-1234-5678</p>
+        </div>
+        <div class="contacts__sns">
+          <h3>SNS</h3>
+          <p>@insta_</p>
+        </div>
+      </div>
+      <p style="text-align: center;">Copyright &copy; 제이슨 부히즈. All Right Reserved.</p>
+    </footer>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/c8e2b99a17.js" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

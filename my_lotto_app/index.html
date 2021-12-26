@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 로또 번호 추첨하자 </title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+    <link href="lotto.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="container">
+        <header>
+            <h1> 로또 번호 생성 </h1>
+        </header>  
+        
+        <section>
+            <!-- JS 로 숫자를 생성하여 숫자판을 채우자 -->
+            <div class="js-numbers"> </div>
+            <button class="js-btn"> 추첨하기 </button>
+            <p class="ing visible"> 생성중.</p>
+            <div class="result"> </div>
+            <button class="js-reset"> 초기화 </button>
+        </section>  
+
+        <footer> 
+            <h3> victoria1230120@naver.com </h3>
+        </footer>
+    </div>
+
+    <script src="lotto.js"></script>
+</body>
+</html>

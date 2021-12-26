@@ -1,0 +1,23 @@
+article:nth-child(2) > h2{  
+  font-size: 54px;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.skills{
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill{
+  width:250px;
+  height: 250px;
+  text-align: center;
+  margin: 20px;
+}
+.skill p{
+  margin: 10px 5px;
+}

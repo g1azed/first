@@ -1,0 +1,49 @@
+footer{
+  padding-bottom: 60px;
+}
+
+h2{  
+  font-size: 54px;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.contacts{
+  margin: 0 50px;
+  padding: 0 0 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.contacts > div{ width: 300px;  margin: 0 30px;}
+.contacts > div > h3{
+  background-color: red;
+  padding: 10px;
+  font-size: 24px;
+}
+.contacts > div > h3::after{
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  width: 28px;
+  height: 28px;
+  background-size: cover;
+  content: '';
+}
+.contacts > .contacts__email > h3::after{
+  left: 190px;
+  background-image: url(../asset/images/mail.png);
+}
+.contacts > .contacts__phone > h3::after{
+  left: 170px;
+  background-image: url(../asset/images/phone.png);
+}
+.contacts > .contacts__sns > h3::after{
+  left: 200px;
+  background-image: url(../asset/images/sns.png);
+}
+.contacts > div > p{
+  border: 1px solid white;
+  border-top: none;
+  padding: 10px;
+}

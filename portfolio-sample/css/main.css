@@ -1,0 +1,10 @@
+@import "./layout.css";
+@import "./header.css";
+@import "./about.css";
+@import "./skills.css";
+@import "./portfolio.css";
+@import "./tablet.css";
+@import "./mobile.css";
+@import "./footer.css";
+/* library */
+@import "./animate.css";

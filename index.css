@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}  
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'S-CoreDream-3Light';
+}
+
+
+body{ 
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top:0; right: 0; left:0;
+    z-index: 1;
+}
+.menu{
+    list-style-type: none;
+    width: 100%;
+    height: 70px;
+    display: flex; justify-content: flex-end;
+    align-items: center;
+    background-color:#454D4E;
+    opacity: 90%;
+    font-size: 24px;
+}
+.menu li{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.menu li:nth-child(5){
+    margin-right: 360px;
+} 
+.menu li a{
+    text-decoration: none;
+    color:black;
+}
+
+.H2{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper{
+    display: flex;
+    margin-top: 150px;
+    width: 100%;
+}
+
+.top{
+    width: 500px; height: 500px;
+    background-image: url('/png/FB_IMG_1615636224257.png') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    align-self: flex-end;
+    background-position: bottom;
+    margin-right: 60px;
+}
+
+.top-wrapper > h1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 250px;
+    padding-left: 240px;
+
+}
+
+
+
+
+
+.info{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: 130px;
+    padding-left: 20px;
+    border: 1px solid black;
+
+}
+.info > div {
+    color: black;
+    font-size: 25px;
+    margin: 0 auto;
+    display: inline-block; flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.info > div > p{
+    font-size: 18px;
+}
+
+
+.skill-wrap{
+    width: 100%;
+    height: 700px;
+    padding-left: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+}
+.top-wrapper + h2{
+    padding: 30px 0;
+    margin-top: 100px;
+}
+.skill{
+    width: 2000px; height: 700px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.conic{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: 0.6s;
+    display: inline-block;
+    align-items: flex-start;
+}
+
+.conic > span{
+    background: #fff;
+    display : block;
+    position: absolute;
+    top:50%; left:50%;
+    width:100px; height:100px;
+    border-radius: 50%;
+    text-align:center; line-height: 100px;
+    font-size:15px;
+    transform: translate(-50%, -50%);
+}
+.conic-line{
+    width: 500px;
+    border-bottom: 2px solid black;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.conic-line > p{
+    padding-left: 450px;
+}
+
+
+
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+.mbti-wrap{
+    width: 500px;
+    height: 500px;
+    position: relative;
+
+}
+.mbti{
+    width: 300px; height: 300px;
+    background-image: url('/png/isfj.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+
+.hubby-wrap{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.hubby{
+    margin: 0;
+    position: absolute;
+    justify-content: space-around;
+    list-style-type: none;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.hubby > li{
+    margin: 10px;
+}
+
+
+.pofol-wrap{
+    margin-top: 30px;
+}
+
+
+#container{
+    width: 640px; margin: 0 auto;
+}
+
+.album{
+    height: 400px; width: 100%;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    height: 400px;
+    width: 2560px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.image{
+    width: 640px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-content: center;
+}
+.image:nth-child(1){ background-image: url(png/DSC00538.jpg);
+                    background-size: cover;
+}
+.image:nth-child(2){ background-color: coral; text-align: center;}
+.image:nth-child(3){background-image: url(png/연습.jpg);
+}
+.image:nth-child(4){ background-image: url(png/FB_IMG_1615636224257222.png); }
+
+button{
+    width: 100px; height: 30px;
+    border: none;
+    color: white; background-color: burlywood;
+    margin-bottom: 100px;
+}
+button:disabled{
+    background-color: lightgray;
+}
+.prev{
+    float: left;
+}
+.next{
+    float: right;
+}
+
+
+

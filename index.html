@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+
+    <link href="index.css" rel="stylesheet">
+
+    <!-- jquery-ui-->
+    <script src="./jquery-ui/external/jquery/jquery.js"></script>
+    <script src="./jquery-ui/jquery-ui.js"></script>
+    <link href="./jquery-ui/jquery-ui.css" rel="stylesheet">
+
+    <!-- react-->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"> </script>
+
+    <script crossorigin src="https://github.com/rendro/easy-pie-chart.git"></script>
+
+    <!-- wow.js-->
+    <link rel="stylesheet" href="animate.css">
+
+</head>
+
+<body>
+    <div>
+
+        <header>
+            <ul class="menu">
+                <li> <a href="index.html"> IntroMe </a> </li>|
+                <li> <a href="/Cafe_home/index.html"> Cafe Promote</a> </li>|
+                <li> <a href="my_lotto_app/index.html"> Lotto </a> </li>|
+                <li> <a href="http://hongtestmbti.netlify.app" > MBTI </a> </li>|
+                <li> <a href="https://honglist.netlify.app/"> TO DO List</a></li>
+            </ul>
+        </header>
+
+
+        <div class="top-wrapper"> 
+            <div class="info">
+                <h2 class="H2">Info <div> </div> </h2>
+                <div>
+                    <span>생일</span>
+                    <p> 2000.01.20 </p>
+                </div>
+                <br />
+                <div>
+                    <span>주소 </span>
+                    <p> 대한민국 </p>
+                </div>
+                <br />
+                <div>
+                    <span>번호</span>
+                    <p> 010-2456-7111 </p>
+                </div>
+                <br />
+                <div>
+                    <span>이메일</span>
+                    <p> mal_gamja@naver.com </p>
+                </div>
+            </div>
+
+            <h1> "안녕 나는 맹구" </h1>
+            <div class="top"> </div>
+
+
+
+        </div>
+
+        <h2 class="H2">Skill</h2>
+
+        <div class="skill-wrap">
+            <div class="skill">
+                <div class="conic"> <span>PHOTOSHOP </span>   <div class="conic-line"> <p> 85% </p> </div> </div>
+                <div class="conic"> <span>ILLUSTLATOR </span>  <div class="conic-line"> <p> 90% </p> </div> </div>
+                <div class="conic"> <span>AFTEREFFECT </span>  <div class="conic-line"><p> 73% </p> </div></div>
+                <div class="conic"> <span>LIGHTROOM </span> <div class="conic-line"><p> 94% </p> </div> </div>
+
+                <div class="conic"> <span>HTML </span>  <div class="conic-line"><p> 70% </p> </div> </div>
+                <div class="conic"> <span>CSS </span> <div class="conic-line"><p> 50% </p> </div> </div>
+                <div class="conic"> <span>JAVASCRIPT </span><div class="conic-line"> <p> 43% </p></div>  </div>
+                <div class="conic"> <span>REACT </span> <div class="conic-line"><p> 30% </p> </div>  </div>
+            </div>
+        </div> <!-- skill-wrap -->
+
+        <div class="wrap wow fadeInDown" style="animation-duration: 2s;">
+            <div class="mbti-wrap">
+                <h2 class="H2"> MBTI </h2>
+                <div class="mbti"> </div>
+            </div>
+
+            <div class="hubby-wrap">
+                <h2 class="H2"> Hubby </h2>
+                <ul class="hubby">
+                    <li> 재즈 들으면서 소설 읽기 </li>
+                    <li> 새로운 레시피 요리해먹기 </li>
+                    <li> 건강을 위한 운동 </li>
+                    <li> 홈카페 만들기 </li>
+                    <li> 힐링 게임하기</li>
+                    <li> 카페에서 작업하기</li>
+                    <li> 필름사진 촬영</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pofol-wrap">
+            <h2 class="H2"> Portfolio </h2>
+            <div id="container">
+                <div class="album">
+                    <div class="images"> 
+                        <div class="image"></div>
+                        <div class="image"> 기여운 나 </div>
+                        <div class="image"></div>
+                        <div class="image"> 봐줘서 ヾ(≧へ≦)〃 고마워 </div>
+                    </div>
+                </div>
+                <button class="prev"> PREV </button>
+                <button class="next"> NEXT </button>
+            </div>
+        </div>
+    
+    </body><!-- body밑 div-->
+
+
+    <footer>
+
+    </footer>
+
+
+    <script src="index.js"></script>
+    <script src="slide.js"></script>
+    <script src="wow.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+
+</body>
+
+</html>
